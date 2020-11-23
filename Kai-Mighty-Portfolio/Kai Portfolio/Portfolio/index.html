@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kai Mighty Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Kai Mighty</div><br>
+    <div id="links">
+        <a href="#skills">skills</a>
+        <a href="#work" style="margin:0px 60px;">works</a>
+        <a href="#contact">contact</a>
+    </div>
+    </div>
+
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            Welcome to my portfolio here I will showcase some of my HTML, CSS and JavaScript skills<br>
+            <button class="btn_one">haha ok</button>
+        </div>
+    </div>
+    </center>
+
+    <div id="portfolio">
+             <div id="skills">
+                 <h1>skills.</h1>   
+                 <div>
+                     <p>I have had 6 months experience working with HTML, CSS and Javascript, I have also done some work with SQL in a previous job I had. I've worked on projects using C++ in the past building small games and recently have worked on some small projects creating webpages using my current knowledge of HTML,CSS and JavaScript.</p>
+                 </div> 
+             </div>
+         
+              <div id="work">
+                 <h1>works.</h1>
+
+                 <div class="project">
+                    <h2>Dasmoto's Arts & Crafts</h2>
+                 <div>In this project I created a simple static site that showcases a few art products that could be purchased from the site.</div>
+                 <button onclick="window.location.href='https://github.com/KJMighty/Dasmoto-s-Arts-Crafts.git'" class="btn_one">visit project</button>
+                </div>
+
+                <div class="project">
+                 <h2>Football Page</h2>
+                 <div>Here I made an attempt at creating a webpage for Manchester United, unlike the previous project I incorparated some Javascript in this site to add some effects that may catch the users eye.
+                 </div>
+                 <button onclick="window.location.href='https://github.com/KJMighty/Man-Utd.git'" class="btn_one">visit project</button>
+                 <button onclick="window.location.href='https://github.com/KJMighty'" class="btn_two">code</button>
+                </div>
+
+             </div>
+         
+              <div id="contact">
+                 <h1>contact.</h1> 
+                 <form>
+                     <input type="text" placeholder="name" required>
+                     <input type="email" placeholder="email" required><br>
+                     <textarea placeholder="your message" required rows="5"></textarea><br>
+                     <button class="btn_one">send</button>
+                 </form> 
+                 <div id="details">
+                    <a class="btn_social"><i class="fas fa-phone"></i></a>
+                    <a class="btn_social"><i class="fas fa-at"></i></a>
+                    <a class="btn_social"><i class="fab fa-twitter"></i></a>
+                    <a class="btn_social"><i class="fab fa-dribbble"></i></a>
+                 </div>   
+             </div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
