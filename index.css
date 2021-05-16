@@ -211,6 +211,11 @@ body,html {
     background:#fff;
     cursor:pointer;
 }
+
+#github, #linkedin {
+    font-size: 1.4rem;
+}
+
 @media (max-width: 900px){
     #header {
         width:94%;
