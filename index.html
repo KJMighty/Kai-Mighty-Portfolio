@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kai Mighty Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Kai Mighty</div><br>
+    <div id="links">
+        <a href="#skills">skills</a>
+        <a href="#work" style="margin:0px 60px;">works</a>
+        <a href="#contact">contact</a>
+    </div>
+    </div>
+
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            Welcome to my portfolio here I will showcase some of my HTML, CSS and JavaScript skills<br>
+        </div>
+    </div>
+    </center>
+
+    <div id="portfolio">
+             <div id="skills">
+                 <h1>skills.</h1>   
+                 <div>
+                     <p>I have had a year of experience working with HTML, CSS and Javascript, I have also done some work with SQL in a previous job I had. I've worked on projects using C++ in the past building small games and recently have worked on some small projects creating webpages using my current knowledge of HTML,CSS and JavaScript.</p>
+                 </div> 
+             </div>
+         
+              <div id="work">
+                 <h1>works.</h1>
+
+                  <div class="project">
+                    <h2>SlingShot JS Game</h2>
+                 <div>In this project I made a mini game using Javascript where you sling a ball at a pile of random objects knocking them of a surface.</div>
+                 <button onclick="window.open('https://kai2djsgame.netlify.app/')" class="btn_one">visit project</button>
+                </div>
+
+                <div class="project">
+                 <h2>Reach Services Home Page</h2>
+                 <div>This was the first proffessional job I did as a developer where I helped build the homepage site for start up company Reach Services Limited. My job was to create the image slider component and design build the initial layout of the site. 
+                 </div>
+                 <button onclick="window.open('https://reach.biz/')" class="btn_one">visit project</button>
+                </div>
+                  
+                  <div class="project">
+                    <h2>Dad Joke Generator</h2>
+                 <div>In this project I used the fetch API to build a site that displays different jokes everytime a button is pushed.</div>
+                 <button onclick="window.open('https://dadjokeskjm.netlify.app')" class="btn_one">visit project</button>
+                </div>
+                  
+                  <div class="project">
+                    <h2>Movie App</h2>
+                 <div>In this project I used the moviedb API to build a site that displays movies based on popularity and displays an overview of the films and a rating.</div>
+                 <button onclick="window.open('https://kaimovieapp.netlify.app/')" class="btn_one">visit project</button>
+                 <button onclick="window.open('https://github.com/KJMighty')" class="btn_two"><i class="fab fa-github"></i></button>
+                 <button onclick="window.open('https://www.linkedin.com/in/kai-mighty-35901612b/')" class="btn_two"><i class="fab fa-linkedin"></i></button>
+                </div>
+
+             </div>
+         
+              <div id="contact">
+                 <h1>contact.</h1> 
+                 <form>
+                     <input type="text" placeholder="name" required>
+                     <input type="email" placeholder="email" required><br>
+                     <textarea placeholder="your message" required rows="5"></textarea><br>
+                     <button class="btn_one">send</button>
+                 </form> 
+                 <div id="details">
+                    <a class="btn_social"><i class="fas fa-phone"></i></a>
+                    <a class="btn_social"><i class="fas fa-at"></i></a>
+                    <a class="btn_social"><i class="fab fa-twitter"></i></a>
+                    <a class="btn_social"><i class="fab fa-dribbble"></i></a>
+                 </div>   
+             </div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
